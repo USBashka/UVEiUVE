@@ -69,7 +69,7 @@ def main():
 
     print("==", obj.name, "==")
     print("by", obj.author)
-    print("Создано", datetime.utcfromtimestamp(obj.time).strftime('%Y.%m.%d года, в %H:%M:%S'))
+    print("Создано", datetime.utcfromtimestamp(obj.time).strftime('%Y.%m.%d, в %H:%M:%S'))
     print()
     print(obj.description)
     print()
